@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+
+<html>
+<head>
+<title>Blackjack</title>
+	<link rel="stylesheet" type="text/css" href="blackjack_styles.css">
+	
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="BlackJack23_0.js"></script>
+	<script type="text/javascript" src="dealer_words.js"></script>
+		
+</head>
+
+<body>
+
+<div id="playarea">
+
+	<div id="dealerarea">
+
+	<div class="hand" id="dealershand"></div>
+
+</div>
+
+<div id="scriptarea">
+
+	<div id="rollingscript"></div>
+	
+</div>
+
+<div id="scorearea">
+
+	<div id="mainbuttons">
+		<button type="button" id="deal">Deal</button>
+		<button type="button" id="addhand">Add Hand</button>
+		<button type="button" id="minushand">Remove Hand</button>
+		<button type="button" id="changerules">Change Table</button>
+	</div>
+	
+	<p id="stasharea">Player's Bankroll: <span id="playerstash">cash</span> $</p>
+	<p id="showinsarea">Player Insurance: <span id="showins">0</span> $</p>
+	
+	<p id="dealersscorearea">Dealer's Score: <span id="dealscore"></span></p>
+	
+	<div id="playersscorearea"></div>
+
+</div>
+
+<div id="playerarea">
+
+</div>
+
+</div>
+
+</body>
+</html>

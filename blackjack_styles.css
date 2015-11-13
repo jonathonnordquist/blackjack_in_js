@@ -1,0 +1,394 @@
+body{
+	background-image: url('wood-texture.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+img{
+	width: 100px;
+	height: 145px;
+	position: relative;
+	overflow:hidden;
+}
+p{
+	background-color: white;
+}
+
+.playerhand{
+	width: 100px;
+	height: 145px;
+}
+
+.subcard{
+	position: relative;
+	bottom: 145px;
+	left: 25px;
+}
+
+.hitcard{
+	position: relative;
+}
+
+#topbar{
+	background-color: red;
+	width: 50%;
+	height: 75 px;
+	margin: -25px auto;	
+}
+
+#maintitle{
+	font-family: "Verdana," Geneva, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3{
+	font-family: Ariel;
+	font-size: 40px;
+	text-align: center;
+}
+
+.hand{
+	height: 180px;
+	width: 100px;
+}
+
+#dealerarea{
+	float: left;
+	background-image: url("RAIAPP_1.jpg");
+	top: 20px;
+	width:27.5%;
+	margin-left: 2.55%;
+	margin-right:auto;
+	margin-bottom: 25px;
+	height: 350px;
+	border: solid 2px black;
+	border-radius: 15px;
+}
+
+#dealershand{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#scriptarea{
+	float: left;
+	background-image: url("RAIAPP_1.jpg");
+	top: 20px;
+	width:29%;
+	margin-left: 3.5%;
+	margin-right:auto;
+	margin-bottom: 25px;
+	height: 350px;
+	border: solid 2px black;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+#scorearea{
+	float: right;
+	background-image: url("RAIAPP_1.jpg");
+	width: 30.5%;
+	margin-left: auto;
+	margin-right: 2.5%;
+	margin-bottom: 25px;
+	height: 350px;
+	border: solid 2px black;
+	border-radius: 15px;
+}
+
+#playerarea{
+	clear: both;
+	background-image: url("RAIAPP_1.jpg");
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	height: 700px;
+	border: solid 2px black;
+	border-radius: 15px;
+}
+
+#rollingscript{
+	width: 93%;
+	margin: 10px auto;
+	background-color: white;
+	height: 324px;
+	border: 5px double black;
+}
+
+#playerarea h3{
+	position: relative;
+	top: -40px;
+	left: -220px;
+}
+
+.buttons{
+	position: relative;
+	top: 170px;
+	right: 40px;
+	display: inline;
+	clear: right;
+}
+
+.buttonposition{
+	width: 105px;
+	margin-left: 30px;
+}
+
+.buttons li {
+	list-style: none;
+	display:inline;
+	padding: 0;
+	margin: 0;
+}
+
+#stasharea{
+	float: left;
+	width: 240px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+#showinsarea{
+	float: left;
+	width: 240px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+.handcontainer{
+	width: 369px;
+	height: 500px;
+	float: left;
+}
+
+#mainbuttons{
+	clear: both;
+	width: 93%;
+	text-align: center;
+	margin: 15px 0px;
+	height: 50px;
+}
+#mainbuttons button{
+	float: left;
+	width: 21%;
+	height: 50px;
+	font-size: 11pt;
+	margin-left: 4%;
+}
+
+#playerbuttons1{
+	width: 120px;
+	position: relative;
+	left: 38px;
+	text-align: center;
+}
+
+#playerbuttons2{
+	width: 200px;
+	position: relative;
+	text-align: center;
+}
+
+.initialcardsdealt{
+	position: relative;
+	bottom: 385px;
+	left: -30px;
+	width: 200px;
+	height: 170px;
+}
+
+.splithand{
+	position: relative;
+	left: 95px;
+	bottom: 557px;
+	width: 200px;
+	height: 170px;
+}
+
+#playersfirsthand{
+	position: relative;
+	left: 25px;
+}
+
+.playerbuttonsset{
+	height: 48px;
+}
+
+#playersfirstsplit{
+	position: relative;
+	left: 25px;
+}
+
+.betarea{
+	height: 160px;
+	width: 105px;
+	border: 2px solid white;
+	border-radius: 15px;
+	float: left;
+	margin-top: 385px;
+	margin-left:120px;
+	margin-right: 200px;
+}
+
+.betareabox{
+	margin-top: 10px;
+}
+
+.betgoeshere{
+	width: 80px;
+}
+
+.betholderbox{
+	text-align: center;
+}
+
+#dealersscorearea{
+	width: 250px;
+	margin: 15px auto;
+	clear: left;
+}
+
+.scorearea{
+	float: left;
+	width: 42%;
+	padding: 1px 0px;
+	margin-top: 3px;
+	margin-bottom: 2px;
+	margin-right: 4%;
+	margin-left: 4%;
+	border-radius: 3px;
+}
+
+.resultarea{
+	height: 40px;
+}
+
+.questionscreen{
+	background-color: white;
+	height: 50%;
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 15px;
+	position: absolute;
+	top: 200px;
+	left: 30%;
+	right: 30%;
+}
+
+.questionscreen p{
+	font-size: 1em;
+	
+}
+
+#insuranceoffertext{
+	text-align: center;
+	font-size: 25px;
+}
+
+#nothanksarea{
+	width: 100px;
+	margin: 20px auto;
+}
+
+#yesinsarea{
+	width: 150px;
+	margin: 20px auto;
+}
+
+#insamountarea{
+	width: 150px;
+	margin: 20px auto;
+}
+
+#insamount{
+	border: 2px solid black;
+}
+
+#insinfo{
+	margin-top: 10%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.howmanyhandsstart{
+	display: inline;
+}
+
+.hiddensplit{
+	visibility: hidden;
+}
+
+#playersscorearea{
+	margin-top: 15px;
+}
+
+#firstwelcome{
+	
+}
+
+.welcometext{
+	background-color: white;
+	border: 1px white solid;
+	border-radius: 15px;
+	margin: 0px 0px 3% 0px;
+	padding: 22px;
+	text-align: center;
+}
+
+.welcometext h2{
+	font-size: 180%;
+}
+
+#blackjackinstructions{
+	margin: 0px 20px;
+}
+
+#startinghandcountselector{
+	width: 80%;
+	margin: auto;
+}
+
+#startinghandcountselector button{
+	width: 150px;
+}
+
+
+.rulesbutton{
+	float: left;
+}
+
+.rulestext{
+	margin-left: 100px;
+}
+
+#playerbankruptchoice{
+	text-align: center;
+}
+
+#playerbankruptchoice p{
+	font-size: 130%;
+}
+
+#bankruptbuttons input{
+	height: 40px;
+	display: inline;
+	font-size: 115%;
+}
+
+#playbuttons{
+	text-align: center;
+}
+
+#welcomedisc{
+	margin-left: 25px;
+}
+
