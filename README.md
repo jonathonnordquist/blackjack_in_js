@@ -1,2 +1,4 @@
-# blackjack_in_js
-A browser based application of the game of Blackjack
+# Blackjack
+This is a simple browser based application of the game of Blackjack. This is the first real program I've ever built, and one I'll always be proud of. I built this app as a hobby and taught myself everything I needed to make it happen. In the process I learned the basics of how computer code works, and how to make something interactive. Since then I've learned a great deal about what the difference is between code that works, and "good code." This is definitely the former as the functions are large, and don't fit what people often consider to be best practices, but at the time I didn't even know there were best practices. You will notice there is no history of changes to the application, when I built this I didn't even know that source control was a thing. Since building this app I've learned a great deal about how software should be built, but this will always be an old favorite. It's not persistent at all, the entire implementation is in JavaScript and jQuery.
+
+To play, simply clone the app, then launch the blackjack.html file. Everything you need is in there. Comments are welcome and encourage, and I hope you enjoy my efforts.
